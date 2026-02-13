@@ -7,8 +7,8 @@ from checkmate import checkmate
 def main():
     board = """\
 .R.
-.P.
-.KQ\
+.A.
+.K.\
 """
     if len(sys.argv) > 1:
         for i in sys.argv[1:]:
